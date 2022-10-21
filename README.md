@@ -21,6 +21,6 @@ bandit ${BANDIT_FLAGS} --format=json . | python3 bandit_json_to_junit2xml.py > b
 
 ## TODO
 
-[ ] - Create package and entrypoint script
-[ ] - Publish to PyPI
-[ ] - Handle command line arguments rather than just plain pipe via `stdin`
+- [ ] - Create package and entrypoint script
+- [ ] - Publish to PyPI
+- [ ] - Handle command line arguments rather than just plain pipe via `stdin`
